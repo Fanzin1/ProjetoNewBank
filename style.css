@@ -129,11 +129,12 @@ p{
     }
 
     .cartao{
-        margin-left: 175px;
+        margin-left: 550px!important;
+        
     }
 
     .transfere{
-        margin-left: 175px;
+                margin-left: 550px!important;
     }
 
     .le{
@@ -172,12 +173,12 @@ p{
     }
 
     .cartao{
-        margin-left: 500px;
+        margin-left: 550px!important;
         margin-top: -275px!important;
     }
 
     .transfere{
-        margin-left: 500px;
+               margin-left: 550px!important;
     }
 
     .le{
