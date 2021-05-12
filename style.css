@@ -140,6 +140,10 @@ p{
         margin-left: 75px!important;
  
     }
+
+    .ld{
+        margin-left: 150px!important;
+    }
 }
 
 @media (max-width: 1024px){
