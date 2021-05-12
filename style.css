@@ -245,13 +245,13 @@ p{
     }
 
     .le{
-        margin-left: 65px!important;
+        margin-left: 45px!important;
         width: 250px!important;
         text-align: center;
     }
 
     .txt{
-        margin-left: 25px!important;
+        margin-left: 45px!important;
         width: 350px!important;
         text-align: center;
         margin-bottom: 40px;
@@ -259,7 +259,7 @@ p{
     }
 
     .downloads{
-        margin-left: 35px;
+        margin-left: 25px;
     }
 
     .ft{
