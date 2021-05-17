@@ -12,7 +12,6 @@
          url('cooperhewitt-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 header{
@@ -130,11 +129,10 @@ p{
 
     .cartao{
         margin-left: 550px!important;
-        
     }
 
     .transfere{
-                margin-left: 550px!important;
+        margin-left: 550px!important;
     }
 
     .le{
@@ -156,39 +154,8 @@ p{
         margin-left: 50px;
     }
 
-    .prin{
-        width: 450px;
-    }
-
-    .conta{
-        margin-left: 15px;
-    }
-
-    .novo{
-        margin-left: 15px;
-    }
-
-    .time{
-        margin-left: 15px;
-    }
-
-    .cartao{
-        margin-left: 550px!important;
-        margin-top: -275px!important;
-    }
-
-    .transfere{
-               margin-left: 550px!important;
-    }
-
-    .le{
-        margin-left: 15px!important;
-    }
-
-    .ld{
-        margin-left: 50px!important;
-        width: 350px!important;
-
+    .imge{
+        width: 430px!important;
     }
 
     p{
@@ -201,66 +168,58 @@ p{
 }
 
 @media (max-width: 768px){
-    .prin{
-        display: none!important;
-    }
-
     .cell{
         display: none!important;
     }
 
-    .ld{
-        margin-left: 175px!important;
-        text-align: center;
-    }
-
-    .le{
-        margin-left: 125px!important;
-        text-align: center;
-    }
-
     .txt{
-        margin-left: 150px!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
         text-align: center;
+        float: none!important;
+
+    }
+
+    p{
+       font-size: 36px!important;
     }
 
     .downloads{
         margin-left: 200px;
     }
+
+    .imge{
+        float: none!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
 }
 
 @media (max-width: 425px){
 
-    .prin{
-        display: none!important;
-    }
 
     .cell{
         display: none!important;
     }
 
-    .ld{
-        margin-left: 65px!important;
-        width: 250px!important;
-        text-align: center;
-    }
-
-    .le{
-        margin-left: 45px!important;
-        width: 250px!important;
-        text-align: center;
-    }
 
     .txt{
-        margin-left: 45px!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
         width: 350px!important;
         text-align: center;
         margin-bottom: 40px;
         padding-top: 80px!important;
+        
+    }
+
+    .imge{
+        display: none!important;
     }
 
     .downloads{
-        margin-left: 25px;
+        margin-left: 15px;
     }
 
     .ft{
@@ -270,11 +229,25 @@ p{
     .menu{
         display: none;
     }
+
+    .utxt{
+        margin-left: -70px!important;
+    }
+
+    p{
+        font-size: 30px!important;
+    }
+
+    .txt{
+        width: 300px;
+    }
 }
 
 @media (max-width: 375px){
     .txt{
-        margin-left: 5px!important;
+
+        width: 250px!important;
+        margin: auto!important;
     }
 
     .sep{
@@ -282,42 +255,25 @@ p{
         margin-left: 75px;
     }
 
-    .ld{
-        margin-left: 35px!important;
-        width: 250px!important;
-        text-align: center;
+    .utxt{
+        margin-left: -40px!important;
     }
 
-    .le{
-        margin-left: 35px!important;
-        width: 250px!important;
-        text-align: center;
-    }
+
 }
 
 @media (max-width: 320px){
     .txt{
         width: 250px!important;
-        margin-left: 25px!important;
+        margin: auto!important;
         text-align: center;
         margin-bottom: 0px;
         padding-top: 20px!important;
 
     }
 
-    .txt{
-        font-size: 40px;
+    .utxt{
+        margin-left: -50px!important;
     }
 
-    .ld{
-        margin-left: 5px!important;
-        width: 250px!important;
-        text-align: center;
-    }
-
-    .le{
-        margin-left: 5px!important;
-        width: 250px!important;
-        text-align: center;
-    }
 }
