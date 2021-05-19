@@ -107,6 +107,29 @@ p{
 }
 
 
+.animacao{
+    position: relative;
+}
+
+.animacao::after{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    width: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #C33764;
+    animation: swipe-in-text 1s ease-out 0.5s forwards;
+}
+
+.textAni{
+     opacity: 0;
+    animation: fade-in-text 0.01s linear 1s forwards;
+}
+
 
 @media (max-width: 1440px){
     .downloads{
